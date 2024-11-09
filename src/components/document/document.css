@@ -1,0 +1,67 @@
+/* Customers Section */
+.customers-section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button Section */
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styles */
+.customers-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.customers-table th,
+.customers-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.customers-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.customers-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.customers-table tr:hover {
+    background-color: #ddd;
+}
