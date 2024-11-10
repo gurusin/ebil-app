@@ -1,0 +1,101 @@
+.upload-bill {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.upload-bill form {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-bill .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.upload-bill .form-group {
+    flex: 1;
+}
+
+.upload-bill .form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.upload-bill .form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.upload-bill button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.upload-bill button:disabled {
+    background-color: #ccc;
+}
+
+.upload-bill .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.upload-bill .modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.upload-bill .modal-content h3 {
+    margin-bottom: 20px;
+}
+
+.upload-bill .modal-content p {
+    margin-bottom: 20px;
+}
+
+.upload-bill .modal button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.upload-bill .modal button:last-child {
+    background-color: #dc3545;
+}
+
+.upload-bill .loading {
+    font-size: 16px;
+    color: #007BFF;
+}
+
+.upload-bill .message {
+    font-size: 14px;
+    color: #f44336;
+}

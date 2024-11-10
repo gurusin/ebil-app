@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+  font-family: Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header {
+  background-color: rgba(255, 255, 255, 0.96);
   color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 0.5em;
+  height: 75px;
+  display: flex;
+  justify-content: flex-start; /* Align horizontally to the left */
+  align-items: flex-start; /* Align vertically to the top */
+  padding: 5px; /* Optional: Add some padding */
 }
 
-.App-link {
-  color: #61dafb;
+.header img {
+  max-height: 50%; /* Ensure image doesn't exceed header height */
+  width: auto; /* Maintain aspect ratio */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header .header-text {
+  flex-grow: 1; /* Take up the remaining space */
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  text-align: center; /* Center the text horizontally */
+  margin-right: 10px; /* Optional: Space on the right if needed */
+}
+
+.main-content {
+  display: flex;
+  height: calc(100vh - 70px); /* Adjusting for header height */
+}
+
+.sidebar {
+  width: 10%;
+  background-color: #f4f4f4;
+  padding: 1em;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin: 0.5em 0;
+  cursor: pointer;
+}
+
+.content {
+  width: 80%;
+  padding: 1.5em;
+  overflow-y: auto;
+}
+
+.content h2 {
+  margin-bottom: 1em;
 }

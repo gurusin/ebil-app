@@ -1,0 +1,98 @@
+/* Container for the entire table and buttons */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Title section */
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Button container - Aligning buttons to the left */
+.button-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px; /* Space below buttons */
+    alignment: right;
+}
+
+/* Styling for Upload and Clear buttons */
+.upload-button,
+.clear-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.clear-button {
+    background-color: #FF5733;
+    color: white;
+}
+
+.clear-button:hover {
+    background-color: #c0392b;
+}
+
+/* Table styling */
+.ebill-table {
+    width: 100%; /* Ensure table takes full width */
+    border-collapse: collapse;
+    margin-top: 20px; /* Add space between buttons and table */
+}
+
+.ebill-table th,
+.ebill-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.ebill-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.ebill-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.ebill-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button inside table */
+.view-button {
+    padding: 6px 12px;
+    background-color: #218838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: #148e30;
+}
+
+.no-records {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}

@@ -44,3 +44,21 @@
 .login-form button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+
+.register-link {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.register-link-text {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.register-link-text:hover {
+    text-decoration: underline;
+}

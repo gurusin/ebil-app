@@ -1,4 +1,4 @@
-/* Customers Section */
+/* Document Section */
 .customers-section {
     padding: 20px;
     background-color: white;
@@ -14,7 +14,17 @@
 .header-title {
     font-size: 30px;
     font-weight: bold;
+    alignment: center;
     color: #333;
+}
+
+.del-button {
+    padding: 6px 12px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Button Section */
@@ -27,7 +37,7 @@
 .btn {
     margin-left: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #218838;
     color: white;
     border: none;
     border-radius: 5px;
@@ -65,3 +75,4 @@
 .customers-table tr:hover {
     background-color: #ddd;
 }
+
